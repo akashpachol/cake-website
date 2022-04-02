@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+.links{
+    color: rgb(187, 22, 22);
+}
+a:hover{
+    
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(240, 255, 255);
+}
+#b{
+    background-color:rgb(27, 4, 4);
+    color: azure;
+}
+#b:hover{
+    background-color: rgb(168, 95, 5);
+    color: aliceblue;
+}
+#bg-top1{
+    transition: width 2s, height 2s, transform 2s;
+    background-color: rgba(7, 7, 6, 0.37);
+  
+}
+#bg-top1:hover{
+    width: 500px;
+    
+
+
+ 
+    
+}
+#heading1{
+    color: rgba(102, 44, 5, 0.979)
+}
+#about-session{
+    color: rgb(240,134,50);
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+#about-session2{
+    font-size: 46px;
+    color: #111111;
+    line-height: 60px;
+    
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+
+}
+#btns{
+    background-color: coral;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+#btns:hover{
+    background-color: aliceblue;
+    color: coral;
+    border-color: coral;
+}
+.p:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.02);
+}
+.SERVICE_1{
+    
+background-color: rgba(255, 127, 80, 0.404);
+    
+}
+#img_s{
+    border-radius: 30px;
+    
+    transition: width 2s, height 2s, transform 2s;
+  
+}
+
+#img_s:hover{
+  
+    transform: rotate(360deg);
+  
+}
+.contact{
+    background-color: rgb(253,243,234);
+}
+span{
+    background-image: url(./img/instagram/cake-piece.png);
+}
+.v{
+    width: 300px;
+    height: 250px;
+}
+.s{
+    font-size: 50px;
+    font-weight: 600;
+}
+.footers{
+    background-image: url(./img/footer-bg.jpg);
+    background-size: cover;
+}
+.q{
+    font-family: 'Akaya Telivigala', cursive;  
+}
+.navs{
+    background-color: rgb(176,83,6);
+}

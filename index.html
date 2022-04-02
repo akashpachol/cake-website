@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>c4 cake</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/fd155b6d65.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning navs">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./img/icon.png " class="w-50" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-bolder" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-bolder" href="#">our menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-bolder" href="#">service</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fs-5 fw-bolder" href="#">contact</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex ">
+          <input class="form-control  " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light  rounded-circle ms-3" type="submit"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <button type="button" class="btn btn-outline-light position-relative rounded-circle ms-3">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge  bg-danger">
+              0
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/img_bg_1 .jpg" class="d-block w-100" alt="..." style="height: 550px;">
+        <div class="carousel-caption d-none d-md-block top-0">
+          <div class="row w-75 pt-5">
+            <div class="col-3">
+              <h1></h1>
+            </div>
+            <div class="col-9 rounded  mt-5 " id="bg-top1">
+              <h1 class="m-5 text-white " id="heading1">Making Your life Sweeter One Bite At A Time</h1>
+              <button class="btn  rounded-pill mb-5 px-4 py-2 " id="b">Our Cakes</button>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img_bg_2 .jpg" class="d-block w-100" alt="..." style="height: 550px;">
+        <div class="carousel-caption d-none d-md-block">
+
+          <div class="row w-75 pt-5">
+            <div class="col-lg-3">
+              <h1></h1>
+            </div>
+            <div class="col-lg-9 rounded  mt-5 " id="bg-top1">
+              <h1 class="m-5  " id="heading1">Treats</h1>
+              <p class="fs-5 fw-bolder text-white">we offer huge range of delicacies, all faithfully recreated daily
+                from keith's orginal recipes and baked on site using only the freshest ingredient </p>
+              <button class="btn  rounded-pill mb-5 px-4 py-2 " id="b">view Our Cakes</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container bg-light w-75 mb-5 mt-5">
+
+    <h2 class="text-center" id="about-session"> About Cake Shop</h2>
+    <div class="row mt-5">
+      <div class="col-lg-6 ">
+        <h2 class="fw-bolder mb-5" id="about-session2">Cakes and bakes from the house of Queens!</h2>
+        <p class="fs-4 fw-light">The "Cake Shop" is a c4cakes that started as a small family business. The owners are
+          Vishnu and Athul, supported by a staff of 20 employees.</p>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <div class="d-flex justify-content-between">
+          <h5>CAKE DESIGN</h5>
+          <h5>95%</h5>
+        </div>
+        <div class="progress mb-5">
+          <div class="progress-bar bg-black" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h5>CAKE CLASS</h5>
+          <h5>90%</h5>
+        </div>
+        <div class="progress mb-5">
+          <div class="progress-bar bg-black" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h5>CAKE RECIPES</h5>
+          <h5>96%</h5>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-black " role="progressbar" style="width: 96%" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-5">
+    <h2 class="text-center" id="about-session"> Our Menu</h2>
+
+    <div class="row mt-5">
+      <div class="col-lg-4 p">
+
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu1.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title mt-2"> Cup cake</h5>
+            <p class="card-text mt-1">Rainbow Cupcakes is a dessert that has layers of rainbow cake topped with a
+              magical cloud and rainbow on top. Because life isn’t always rainbows and skittles BUT some days it can be.
+            </p>
+            <div class="accordion" id="accordionExample">
+  
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSiX">
+                    $25
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                    <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                        </div>
+                </div>
+              </div>
+              
+            </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  p">
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu2.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title">Butter Cake</h5>
+            <p class="card-text">This Butterscotch Cake is a moist, from-scratch brown sugar cake topped with
+              butterscotch buttercream made with melted butterscotch chips! The cake is covered in more butterscotch
+              chips and totally to die for!</p>
+              <div class="accordion" id="accordionExample">
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed  px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      $33
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                      <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                          </div>
+                  </div>
+                </div>
+                
+              </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col- p">
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu3.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title">Red Velvet</h5>
+            <p class="card-text">his Red Velvet Cake is a perfect delicacy to devour in! Red Velvet Cake is a famous
+              American dessert recipe made with all purpose flour, icing sugar, almonds and cashews. American cuisine is
+              known for its rich and creamy delicacies. </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      $36
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                      <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-4 p">
+
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu5.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title mt-2"> Donut cake</h5>
+            <p class="card-text mt-1">Cake Doughnuts are fun to make and it never ceases to amaze me how good they taste
+              straight from the deep fryer. This is when their golden brown crust is nice and crisp, </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed  px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      $32
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                      <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  p">
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu7.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title">Tropical Rum Cake</h5>
+            <p class="card-text">This cake is a delicious clone of the dense rum cakes you’ll find in Italian-American
+              markets during the holidays. Yes, there’s a lot of rum in it, and it's definitely not for those avoiding
+              alcohol. But the incredibly moist texture and rich flavor </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed  px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      $38
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                      <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4  p">
+        <div class="card" style="width: 26rem;">
+          <img src="./img/menu4.png" class="card-img-top" alt="..." style="height:300px">
+          <div class="card-body">
+            <h5 class="card-title">Bisket Cake</h5>
+            <p class="card-text">This easy recipe for no bake biscuit cake is perfect to make as a tasty and indulgent
+              dessert. Classic biscuit cake features your favorite biscuits (cookies) soaked in coffee and layered with
+              a homemade chocolate sauce.</p>
+              <div class="accordion" id="accordionExample">
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed  px-5 s fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      $34
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <a href="#" class="btn btn-primary ms-5" id="btns">Buy Now</a>
+                      <a href="#" class="btn btn-primary ms-3" id="btns">Add To Cart</a>
+                          </div>
+                  </div>
+                </div>
+                
+              </div>
+            <a href="#" class="btn btn-primary mt-3" id="btns">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row pt-5 SERVICE_1">
+
+      <h2 class="text-center" id="about-session"> Service</h2>
+      <div class="col-lg-6 text-center">
+        <img src="./img/logo1.png" alt="" class="w-25 " id="img_s">
+        <h1 class="text-black">Easy To Preorder</h1>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="./img/logo2.png" alt="" class="w-25 " id="img_s">
+        <h1 class="text-black">Fastest Delivery</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row pt-5 contact ">
+
+      <div class="col-lg-6 ">
+
+        <h2 class="text-center" id="about-session"> Contact</h2>
+        <form action="">
+          <form id="signup-form">
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="exampleInputName" name="pname">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check me">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </form>
+      </div>
+      <div class="col-lg-6 text-center">
+        <iframe width="550" height="450" src="https://www.youtube.com/embed/rQbguqWoTUI"> </iframe>
+
+
+
+
+        </video>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row pt-5 ">
+
+
+      <div class="col-lg-4 ">
+        <h2 id="about-session"> Follow use on instagram</h2>
+
+        <h2 class="fw-bolder my-5" id="about-session2">Sweet moments are saved as memories.</h2>
+        <span class="fs-2 mt-5"> <i class="fa-brands fa-instagram"></i> @c4cakes</span>
+      </div>
+
+      <div class="col-lg-4 text-center">
+        <div class="card" style="width: 24rem;">
+          <img src="./img/instagram/instagram-3.jpg" class="card-img-top" alt="...">
+        
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="card" style="width: 24rem;">
+          <img src="./img/instagram/instagram-2.jpg" class="card-img-top" alt="...">
+          >
+        </div>
+      </div>
+     
+
+
+    </div>
+
+
+    <div class="row pt-5 ">
+
+
+      <div class="col-lg-4 ">
+       
+      </div>
+
+      <div class="col-lg-4  mt-2">
+        <div class="card " style="width: 24rem;">
+          <img src="./img/instagram/instagram-4.jpg" class="card-img-top v" alt="...">
+        
+        </div>
+      </div>
+      <div class="col-lg-4 text-center ">
+        <div class="card " style="width: 24rem;">
+          <img src="./img/instagram/instagram-1.jpg" class="card-img-top ps-5 v" alt="...">
+          >
+        </div>
+      </div>
+     
+
+
+    </div>
+  </div>
+
+
+  <div class="row footers ">
+    
+    <div class="col-lg-4 mt-5 ms-5">
+      <h3 class="text-warning q">WORKING HOURS</h3>
+      <P class="text-white">Monday - Friday: 08:00 am – 08:30 pm</P>
+      <P  class="text-white">Saturday: 10:00 am – 16:30 pm</P>
+      <P  class="text-white"> Sunday: 10:00 am – 16:30 pm</P>
+
+    </div>
+    <div class="col-lg-3 mt-5">
+      <h3 class="text-warning q">SUBSCRIBE</h3>
+      <P  class="text-white"> Get latest updates and offers.</P>
+      <label for="inputPassword5" class="form-label text-white">Email</label>
+<input type="email" id="inputPassword5" class="form-control" aria-describedby="emailHelpBlock">
+<div id="emailHelpBlock" class="form-text">
+</div>
+    <div class="cntainer mt-3">
+      <i class="fa-brands fa-instagram text-light fs-3 ms-3"></i>
+      <i class="fa-brands fa-facebook text-light fs-3 ms-3"></i>
+      <i class="fa-brands fa-twitter text-light fs-3 ms-3"></i>
+      <i class="fa-brands fa-youtube text-light fs-3 ms-3"></i>
+    </div>
+    </div>
+    <div class="col-lg-4 mt-5 ms-2">
+      <div class="map-responsive">
+
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.558190963566!2d76.31566120317848!3d10.008814168277869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1645095625861!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <script src="  https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
